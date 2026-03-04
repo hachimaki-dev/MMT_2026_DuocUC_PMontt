@@ -10,84 +10,82 @@ document.addEventListener('DOMContentLoaded', () => {
     // Slide types: 'default', 'qr', 'instagram'
     const contents = [
         {
-            title: "SOMOS <img src='assets/logo.png' class='inline-logo' alt='MMT'>",
-            subtitle: "Más Mujeres en las TICs. Conoce más sobre nuestra visión y compromiso.",
-            text: "Impulsando la innovación y el liderazgo femenino en STEM a través de un modelo colaborativo, integrador y en red que busca transformar nuestro futuro.",
+            title: "¿QUÉ ES <img src='assets/logo.png' class='inline-logo' alt='MMT'>?",
+            subtitle: "Programa institucional Más Mujeres en las TIC de Duoc UC.",
+            text: "MMT es una iniciativa de la Escuela de Informática y Telecomunicaciones de Duoc UC que busca aumentar la participación femenina en las Tecnologías de la Información y carreras STEM. Promueve liderazgo estudiantil, redes de apoyo y actividades formativas en todas sus sedes.",
             duration: 15000,
             type: 'default'
         },
         {
-            title: "ESTRUCTURA <span>ORGANIZATIVA</span>",
-            subtitle: "La organización del programa se gestiona a partir de un modelo en red que integra a toda la comunidad de Duoc UC.",
-            text: "Desde la Dirección y Coordinación Central, hasta el Consejo y cada una de las Líderes y Embajadoras, trabajamos unidas en cada paso para guiar la tecnología de la información hacia una nueva era.",
+            title: "PROGRAMA CON <span>ESTRUCTURA</span>",
+            subtitle: "Organización clara, impacto real.",
+            text: "MMT cuenta con Directora del programa, Consejo Duoc UC, Coordinación Central, Docentes Líderes por sede y un Consejo de Líderes estudiantiles. Esta estructura permite planificar, ejecutar y evaluar actividades con objetivos y resultados definidos.",
             type: 'default'
         },
         {
-            title: "DIRECTORA DEL <span>PROGRAMA</span>",
-            subtitle: "Visión y estrategia para alcanzar nuestras ambiciosas metas.",
-            text: "Liderar el camino significa desarrollar planes y métricas de éxito del programa, promoviendo de forma incansable nuestro propósito fundacional a lo largo de todo Duoc UC.",
+            title: "LIDERAZGO <span>ESTUDIANTIL</span>",
+            subtitle: "Las alumnas impulsan el cambio.",
+            text: "Las Líderes y Sublíderes por sede proponen y desarrollan actividades locales, coordinan iniciativas y representan a sus comunidades. Son el motor activo del programa en cada campus.",
             type: 'default'
-        },
-        {
-            title: "ESCANEA NUESTRO <span>QR</span>",
-            subtitle: "Accede directamente a nuestra plataforma y recursos escaneando el código en pantalla.",
-            text: "Apunta la cámara de tu celular, descubre nuestro contenido exclusivo y súmate activamente a la comunidad en donde todas somos Más Tecnológicas.",
-            image: "assets/qr.png",
-            duration: 15000,
-            type: 'qr'
-        },
-        {
-            title: "COORDINACIÓN Y <span>CONSEJO</span>",
-            subtitle: "El motor que asegura el avance y cumplimiento de los objetivos transversales.",
-            text: "Equipos dedicados exclusivamente a guiar el desarrollo de la operación diaria y a definir y aprobar metas clave, brindando el soporte central a todos nuestros docentes.",
-            type: 'default'
-        },
-        {
-            title: "DOCENTES LÍDERES <span>POR SEDE</span>",
-            subtitle: "El apoyo clave para acompañar a nuestras estudiantes a nivel local.",
-            text: "Impulsores que facilitan recursos vitales y coordinan espacios, logrando que quienes desarrollan eventos y actividades cuenten en cada momento con el respaldo y difusión necesaria.",
-            type: 'default'
-        },
-        {
-            title: "SÍGUENOS EN <span>INSTAGRAM</span>",
-            subtitle: "Mantente al día con nuestras actividades, talleres y eventos de nuestra sede en Puerto Montt.",
-            text: "Encuéntranos como @mmt_puertomontt y etiquétanos usando nuestros hashtags para ser parte de esta gran red de aprendizaje activo online.",
-            duration: 15000,
-            type: 'instagram'
         },
         {
             title: "CONSEJO DE <span>LÍDERES</span>",
-            subtitle: "Las voces principales y representantes directas de nuestra comunidad de estudiantes.",
-            text: "Alumnas líderes que asumen la responsabilidad fundamental de coordinar e impulsar constantemente iniciativas transversales con el fin de guiar y motivar el rumbo de nuestro talento.",
+            subtitle: "Representación y articulación entre sedes.",
+            text: "El Consejo de Líderes está conformado por estudiantes representantes de distintas sedes. Difunden el programa, coordinan acciones transversales y actúan como enlace entre la comunidad estudiantil y la Coordinación Central.",
             type: 'default'
         },
         {
-            title: "LÍDERES Y <span>SUBLÍDERES</span>",
-            subtitle: "El corazón y la energía de las actividades propulsoras en cada uno de nuestros campus.",
-            text: "Voluntarias incansables dedicadas a proponer y ejecutar eventos locales que enriquecen a sus respectivas sedes, asegurándose a diario de mantener conectada e informada a su comunidad.",
+            title: "DOCENTES <span>LÍDERES</span>",
+            subtitle: "Acompañamiento y respaldo institucional.",
+            text: "Cada sede cuenta con Docentes Líderes que apoyan la organización de actividades, facilitan recursos y aseguran la articulación con la Dirección de Carrera. Su rol es garantizar que las iniciativas estudiantiles cuenten con soporte académico y administrativo.",
             type: 'default'
         },
         {
-            title: "NUESTRA <span>IMAGEN</span>",
-            subtitle: "Saber más nos hace llegar más lejos.",
-            text: "Observa fijamente los detalles en la pantalla que te rodea. La magia pura de la creación y la tecnología está hoy mismo al alcance de nuestras propias manos.",
+            title: "VOLUNTARIAS Y <span>EMBAJADORAS</span>",
+            subtitle: "La base activa de la comunidad.",
+            text: "Estudiantes, docentes y administrativos pueden registrarse como voluntarias o embajadoras. Participan en actividades, proponen iniciativas y contribuyen al objetivo común de fortalecer la presencia femenina en el ámbito tecnológico.",
+            type: 'default'
+        },
+        {
+            title: "RED ENTRE <span>SEDES</span>",
+            subtitle: "Trabajo colaborativo a nivel institucional.",
+            text: "MMT articula sedes como Alameda, Maipú, Antonio Varas y Plaza Norte, promoviendo la colaboración y el intercambio de experiencias. Las buenas prácticas locales pueden escalar y replicarse en toda la comunidad.",
+            type: 'default'
+        },
+        {
+            title: "FORMACIÓN Y <span>ACTIVIDADES</span>",
+            subtitle: "Aprendizaje aplicado en comunidad.",
+            text: "El programa impulsa talleres, charlas técnicas, mentorías, encuentros y proyectos colaborativos. Estas actividades buscan fortalecer habilidades técnicas, liderazgo y sentido de pertenencia en las estudiantes.",
+            type: 'default'
+        },
+        {
+            title: "GESTIÓN Y <span>RESULTADOS</span>",
+            subtitle: "Medición e indicadores de impacto.",
+            text: "MMT registra información sobre sus actividades e indicadores de participación. La evaluación constante permite mejorar la planificación y asegurar el cumplimiento de los objetivos estratégicos del programa.",
+            type: 'default'
+        },
+        {
+            title: "COMUNIDAD <span>MMT</span>",
+            subtitle: "Red de apoyo en el mundo tecnológico.",
+            text: "Más que un conjunto de actividades, MMT es una comunidad organizada que busca transformar la experiencia académica de las estudiantes en tecnología, promoviendo liderazgo, colaboración y proyección profesional.",
             image: "assets/image.png",
             duration: 15000,
             type: 'featured'
         },
         {
-            title: "VOLUNTARIAS Y <span>EMBAJADORES</span>",
-            subtitle: "La fuerza motriz determinante detrás del cambio y de la colaboración mutua.",
-            text: "Estudiantes, docentes y administrativos unidos en equipo, sumergidos en el aprendizaje colaborativo con la firme meta de expandir significativamente la participación de nuevas mujeres en STEM.",
-            type: 'default'
-        },
-        {
-            title: "ESCANEA NUESTRO <span>QR</span>",
-            subtitle: "Más información al alcance de tu bolsillo.",
-            text: "Simplemente escanea nuestro código QR disponible de inmediato en pantalla para acceder hoy mismo a los beneficios, recientes convocatorias e iniciativas enfocadas en las TIC.",
+            title: "SÚMATE AL <span>PROGRAMA</span>",
+            subtitle: "Participa y forma parte de la red.",
+            text: "Escanea el código QR en pantalla para acceder a información oficial, convocatorias vigentes y actividades del programa Más Mujeres en las TIC. Tu participación fortalece esta comunidad.",
             image: "assets/qr.png",
             duration: 15000,
             type: 'qr'
+        },
+        {
+            title: "SIGUENOS EN <span>INSTAGRAM</span>",
+            subtitle: "Mantente informada de nuestras actividades.",
+            text: "Síguenos en Instagram @mmt_puertomontt para conocer eventos recientes, convocatorias abiertas y noticias del programa en tu sede.",
+            duration: 15000,
+            type: 'instagram'
         }
     ];
 
