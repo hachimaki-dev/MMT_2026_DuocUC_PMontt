@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMT - Más Mujeres en las TIC´s</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Scanlines Overlay -->
+    <div class="scanlines"></div>
+
+    <!-- TV Grid Background -->
+    <div id="tv-grid" class="tv-grid">
+        <!-- TV elements injected here -->
+    </div>
+    <div class="bg-overlay"></div>
+
+    <!-- Vignette -->
+    <div class="vignette"></div>
+
+    <!-- Main Content App -->
+    <main class="presentation-container">
+
+        <!-- Header / Logo -->
+        <header class="header slide-in-top">
+            <div class="logo-box">
+                <img src="assets/logo.png" alt="MMT Logo" class="main-logo">
+                <span class="logo-subtext">MAS MUJERES EN LAS TICS</span>
+            </div>
+            <div class="badge">Programa 2026</div>
+        </header>
+
+        <!-- Dynamic Content Area -->
+        <section class="content-area">
+            <div id="text-container" class="presentation-text fade-in">
+                <!-- Text will be injected here by JS -->
+                <div class="accent-bar"></div>
+                <h1 id="main-title" class="main-title">Únete al Futuro</h1>
+                <h2 id="sub-title" class="sub-title">Aprende, crea y diseña con tecnología</h2>
+                <p id="main-text" class="main-body-text"></p>
+            </div>
+        </section>
+
+        <!-- QR HERO (shown only on QR slides) -->
+        <div id="qr-hero" class="qr-hero hidden">
+            <div class="qr-hero-inner">
+                <div class="qr-hero-code">
+                    <img src="assets/qr.png" alt="QR Code">
+                    <div class="qr-hero-ring"></div>
+                </div>
+                <div class="qr-hero-label">
+                    <span class="qr-hero-icon">📱</span>
+                    <span>ESCANEA CON TU CÁMARA</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- INSTAGRAM CARD (shown only on Instagram slides) -->
+        <div id="ig-card" class="ig-card hidden">
+            <div class="ig-card-inner">
+                <div class="ig-story-ring">
+                    <div class="ig-avatar">
+                        <img src="assets/logo.png" alt="MMT">
+                    </div>
+                </div>
+                <div class="ig-handle">@mmt_puertomontt</div>
+                <div class="ig-cta">SÍGUENOS</div>
+            </div>
+        </div>
+
+        <!-- FEATURED IMAGE HERO (shown only on featured slides) -->
+        <div id="featured-hero" class="featured-hero hidden">
+            <div class="featured-hero-inner">
+                <div class="featured-hero-frame">
+                    <img id="featured-img" src="" alt="Imagen Destacada" class="featured-hero-img">
+                    <div class="featured-hero-glow"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer / QR -->
+        <footer id="footer-qr" class="footer">
+            <div class="qr-placeholder">
+                <span class="qr-text">ESCANEA AQUÍ<br><span class="qr-subtext">para
+                        +Info</span></span>
+                <div class="qr-box">
+                    <img src="assets/qr.png" alt="QR Code">
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar-container">
+        <div id="progress-bar" class="progress-bar"></div>
+    </div>
+
+    <!-- UI Overlay Particles -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <script src="js/images.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
