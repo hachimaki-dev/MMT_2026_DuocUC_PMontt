@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cipper - Conectando Oportunidades</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stand.css">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div id="bg-slideshow" class="bg-slideshow"></div>
+    <div class="background-dimmer"></div>
+    <div class="dynamic-background">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+    <div class="infinite-logo-bg"></div>
+    <div class="noise-overlay"></div>
+
+    <main class="presentation-wrapper">
+        <!-- Header -->
+        <header class="main-header glass-panel slide-down">
+            <div class="logo-container">
+                <img src="assets/logo.png" alt="MMT Logo" class="hero-logo">
+            </div>
+        </header>
+
+        <!-- Dynamic Content Engine -->
+        <section id="content-engine" class="content-engine fade-in">
+            <!-- Slide 1: Impact Message -->
+            <article class="slide active-slide" id="slide-1">
+                <div class="text-content">
+                    <h2 class="headline">La tecnología también es para ti</h2>
+                    <p class="sub-headline">Más mujeres en las TIC comienzan aquí.</p>
+                </div>
+                <!-- Images grid/collage from 'nuevas imagenes' -->
+                <div class="image-showcase">
+                    <div class="img-frame frame-left transform-hover">
+                        <img src="nuevas imagenes/WhatsApp Image 2026-03-04 at 17.01.01.jpeg" alt="Tecnología">
+                    </div>
+                    <div class="img-frame frame-center transform-hover">
+                        <img src="nuevas imagenes/WhatsApp Image 2026-03-25 at 15.28.52.jpeg" alt="Mujeres en TIC">
+                    </div>
+                    <div class="img-frame frame-right transform-hover">
+                        <img src="nuevas imagenes/WhatsApp Image 2026-04-01 at 15.49.37.jpeg" alt="Liderazgo">
+                    </div>
+                </div>
+            </article>
+
+            <!-- Slide 2: What is MMT / Cipper -->
+            <article class="slide hidden-slide" id="slide-2">
+                <h2 class="section-title">¿Qué es MMT?</h2>
+                <div class="blocks-container">
+                    <div class="glass-block transform-hover">
+                        <h3>Comunidad</h3>
+                        <p>Te acompañamos.</p>
+                    </div>
+                    <div class="glass-block transform-hover">
+                        <h3>Aprendizaje</h3>
+                        <p>Aprendes haciendo.</p>
+                    </div>
+                    <div class="glass-block transform-hover">
+                        <h3>Oportunidades</h3>
+                        <p>Conectas con la industria.</p>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Slide 2.3: Data Global -->
+            <article class="slide hidden-slide" id="slide-data-global">
+                <div class="gap-layout">
+                    <div class="gap-number-box bounce-hover">
+                        <span id="counter-global" class="giant-number" data-target="35">0</span>
+                        <span class="percentage-sign">%</span>
+                    </div>
+                    <div class="gap-text">
+                        <h2 class="headline">Panorama Mundial</h2>
+                        <p class="sub-headline">En todo el globo, solo el 35% de las graduadas en áreas STEM son mujeres. La proporción lleva estancada 10 años.</p>
+                        <div class="source-tag">Fuente: UNESCO</div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Slide 2.4: Data Latam -->
+            <article class="slide hidden-slide" id="slide-data-latam">
+                <div class="latam-layout">
+                    <div class="gap-text text-center">
+                        <h2 class="headline">América Latina y el Caribe</h2>
+                        <p class="sub-headline">Matrícula STEM desigual en educación superior.</p>
+                        <div class="source-tag">Fuente: CEPAL / UNESCO</div>
+                    </div>
+                    <div class="stats-cards">
+                        <div class="stat-card glass-panel pop-in" style="--delay: 1;">
+                            <div class="stat-country">México</div>
+                            <div class="stat-value">38%</div>
+                        </div>
+                        <div class="stat-card glass-panel pop-in" style="--delay: 2;">
+                            <div class="stat-country">Argentina</div>
+                            <div class="stat-value">34%</div>
+                        </div>
+                        <div class="stat-card glass-panel pop-in" style="--delay: 3;">
+                            <div class="stat-country">Brasil</div>
+                            <div class="stat-value">30%</div>
+                        </div>
+                        <div class="stat-card stat-alert pop-in" style="--delay: 4;">
+                            <div class="stat-country">Chile</div>
+                            <div class="stat-value bounce-hover">25%</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Slide 2.5: Data Chile -->
+            <article class="slide hidden-slide" id="slide-data-chile">
+                <div class="gap-layout reverse-layout">
+                    <div class="gap-text">
+                        <h2 class="headline gradient-text-alert">La Paradoja en Chile</h2>
+                        <p class="sub-headline">Las mujeres son mayoría en la educación superior (<strong>52,6%</strong>).</p>
+                        <p class="sub-headline">Sin embargo, la matrícula femenina en disciplinas tecnológicas se desploma a tan solo un:</p>
+                        <div class="source-tag">Fuente: Informe MinCiencia / Mineduc 2025</div>
+                    </div>
+                    <div class="gap-number-box alert-box pop-in">
+                        <span id="counter-chile" class="giant-number" data-target="20.8">0</span>
+                        <span class="percentage-sign">%</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Slide 2.7: Activities -->
+            <article class="slide hidden-slide" id="slide-activities">
+                <h2 class="section-title">Del interés a la acción</h2>
+                <div class="activities-grid">
+                    <div class="activity-card glass-panel pop-in" style="--delay: 1;">
+                        <span class="activity-icon">🎤</span>
+                        <h3>Charlas Inspiracionales</h3>
+                    </div>
+                    <div class="activity-card glass-panel pop-in" style="--delay: 2;">
+                        <span class="activity-icon">💻</span>
+                        <h3>Talleres Prácticos y Desafíos</h3>
+                    </div>
+                    <div class="activity-card glass-panel pop-in" style="--delay: 3;">
+                        <span class="activity-icon">🤝</span>
+                        <h3>Mentorías Personalizadas</h3>
+                    </div>
+                    <div class="activity-card glass-panel pop-in" style="--delay: 4;">
+                        <span class="activity-icon">🌐</span>
+                        <h3>Eventos de Vinculación</h3>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Slide 3: Validation / Testimonial -->
+            <article class="slide hidden-slide" id="slide-3">
+                <div class="testimonial-box glass-panel">
+                    <span class="quote-mark">"</span>
+                    <h2 id="dynamic-testimonial" class="testimonial-text">Entré sin saber programar y ahora construyo el
+                        futuro.</h2>
+                    <p id="dynamic-author" class="testimonial-author">- Estudiante DuocUC</p>
+                </div>
+            </article>
+
+            <!-- Slide 4: Aspirational -->
+            <article class="slide hidden-slide" id="slide-4">
+                <div class="aspirational-content">
+                    <h2 class="headline gradient-text">Más mujeres liderando tecnología.</h2>
+                    <p class="sub-headline">Más acceso, más diversidad.</p>
+                </div>
+                <div class="single-image-showcase">
+                    <img src="nuevas imagenes/WhatsApp Image 2026-03-27 at 16.32.33 (1).jpeg" alt="Visión"
+                        class="hero-image glass-panel">
+                </div>
+            </article>
+
+            <!-- Slide 5: CTA / Interaction -->
+            <article class="slide hidden-slide" id="slide-5">
+                <div class="cta-layout">
+                    <div class="cta-text">
+                        <h2 class="headline">Únete a la red</h2>
+                        <p class="sub-headline">Escríbenos, pregunta, participa</p>
+                        <div class="social-tag">@mmt_puertomontt</div>
+                    </div>
+                    <div class="qr-container glass-panel bounce-hover">
+                        <img src="assets/qr.png" alt="QR Code" class="qr-image">
+                        <div class="scan-line"></div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Persistent Footer / Progress -->
+        <footer class="main-footer">
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+        </footer>
+        <!-- Trivia Overlay -->
+        <div id="trivia-overlay" class="trivia-overlay hidden-trivia fade-in">
+            <div class="trivia-container glass-panel slide-down">
+                <h2 id="trivia-question" class="trivia-question gradient-text"></h2>
+                <div id="trivia-options" class="trivia-options">
+                    <!-- Buttons injected via JS -->
+                </div>
+                <div id="trivia-feedback" class="trivia-feedback"></div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="js/stand.js"></script>
+</body>
+
+</html>
